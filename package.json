@@ -1,0 +1,24 @@
+{
+  "name": "cocotte-flow",
+  "description": "simple co only thunk",
+  "homepage": "https://github.com/yukik/cocotte-flow",
+  "keywords": [
+    "cocotte",
+    "co"
+  ],
+  "author": "Yuki Kurata <yuki.kurata@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yukik/cocotte-flow.git"
+  },
+  "main": "flow.js",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT"
+}
