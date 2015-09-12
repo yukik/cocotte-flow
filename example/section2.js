@@ -1,4 +1,4 @@
-var flow = require('cocotte-flow');
+var flow = require('..');
 
 flow(function * () {
   console.log(yield [getThunk(1), getThunk(2), getThunk(3)]);

@@ -1,4 +1,4 @@
-var flow = require('cocotte-flow');
+var flow = require('..');
 
 var x = 0;
 function thunk (callback) {

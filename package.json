@@ -11,8 +11,8 @@
     "type": "git",
     "url": "git://github.com/yukik/cocotte-flow.git"
   },
-  "main": "flow.js",
-  "version": "0.0.2",
+  "main": "lib/flow.js",
+  "version": "0.1.0",
   "scripts": {
     "test": "node ./test/test.js"
   },
