@@ -1,24 +1,34 @@
 {
   "name": "cocotte-flow",
+  "version": "0.1.1",
   "description": "simple co only thunk",
-  "homepage": "https://github.com/yukik/cocotte-flow",
+  "main": "lib/flow.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukik/cocotte-flow.git"
+  },
   "keywords": [
     "cocotte",
     "co"
   ],
   "author": "Yuki Kurata <yuki.kurata@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/yukik/cocotte-flow.git"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yukik/cocotte-flow/issues"
   },
-  "main": "lib/flow.js",
-  "version": "0.1.0",
-  "scripts": {
-    "test": "node ./test/test.js"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "readmeFilename": "README.md",
-  "license": "MIT"
+  "homepage": "https://github.com/yukik/cocotte-flow#readme",
+  "devDependencies": {
+    "browserify": "^10.1.3",
+    "gulp": "^3.8.11",
+    "gulp-uglify": "^1.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
 }
