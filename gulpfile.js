@@ -4,10 +4,12 @@ var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
 var uglify = require('gulp-uglify');
 
+var fname = process.cwd().match(/cocotte-(.*)$/)[1];
+
 gulp.task('build', function () {
-  browserify('lib/flow.js')
+  browserify('lib/' + fname + '.js')
     .bundle()
-    .pipe(source('flow.min.js'))
+    .pipe(source(fname + '.min.js'))
     .pipe(buffer())
     .pipe(uglify({preserveComments: 'some'}))
     .pipe(gulp.dest('public'));

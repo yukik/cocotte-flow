@@ -1,7 +1,7 @@
 {
   "name": "cocotte-flow",
-  "version": "0.1.1",
-  "description": "simple co only thunk",
+  "version": "0.1.2",
+  "description": "It's easy tool to use generator",
   "main": "lib/flow.js",
   "directories": {
     "example": "example",
